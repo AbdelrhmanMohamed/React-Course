@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Card title={state} />
-      <h2>----------------</h2>
+      <h2>-------------testtttt---</h2>
       <List
         items={[
           { name: "test", id: 1 },
