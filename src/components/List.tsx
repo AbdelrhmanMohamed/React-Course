@@ -1,6 +1,16 @@
 import React from "react";
 
-export default function List(props) {
+export type Options = {
+  name: string;
+  id: number;
+};
+
+type Props = {
+  items: Array<Options>;
+  onItemClick: (name: string) => void;
+};
+
+export default function List(props: Props) {
   const { items, onItemClick } = props;
   return (
     <ul>

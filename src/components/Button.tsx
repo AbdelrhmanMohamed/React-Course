@@ -1,6 +1,10 @@
 import React from "react";
 
-export default function Button(props) {
+type Props = {
+  title: string;
+};
+
+export default function Button(props: Props) {
   const { title } = props;
   return (
     <button
